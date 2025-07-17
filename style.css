@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Handjet:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Pacifico&family=Parastoo:wght@400..700&family=Playwrite+DE+Grund:wght@100..400&family=Righteous&display=swap');
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+     font-family: "Inter", sans-serif;
+}
+:root{
+    --text-color:white;
+    --text-theme:rgb(87 219 161);
+}
+
+.herosection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+    position: relative;
+}
+
+.name{
+    color: var(--text-color, whitesmoke);
+    width: clamp(400px, 70vw, 1300px);
+    text-align: center;
+}
+.profile{
+
+}
+.profile img{
+    filter: grayscale();
+    width: clamp(200px, 80vw, 600px);
+    background-color: rgb(30 30 30);
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 20px
+}
+
+.about{
+    text-align: center;
+    color: var(--text-color, whitesmoke);
+}
+.about p{
+    margin:50px -5px;
+    width: clamp(200px, 80, 800px);
+}
+span{
+    border-bottom: 5px solid rgb(87 219 161);
+}
+.contact{
+    color: var(--text-color, whitesmoke);
+}
+
+.rotateimage{
+    position: absolute;
+    width: 150px;
+    top: 57px;
+    left: 248px;
+    right: 0;
+    /* transform: translateX(250px); */
+    animation: rotate 4s linear infinite ;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

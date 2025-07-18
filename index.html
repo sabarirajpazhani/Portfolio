@@ -1,28 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./animation.css" />
+  </head>
+  <body>
     <header class="herosection">
-        <h1 class="name">Sabari Raj P</h1>
-        <section class="profile">
-            <img src="./Assests/Profile_3.png" alt="">
-        </section>
-        <section class="about">
-            <h1>Nice to meet you! I'm <br><span>Sabari Raj P</span></h1>
-            <p>Based in the Indian, I'm a Full-stack developer passionate about building accessible web apps that users love.</p>
-        </section>
-        <section class="contact">
-            <h2>Contact Me</h2>
-        </section>
+      <h1 class="name">Sabari Raj P</h1>
+
+      <section class="profile">
+        <img class="img1" src="./Assests/Profile_3.png" alt="Profile" />
+        <img
+          class="rotateimage"
+          src="./Assests/circle.png"
+          alt="Rotate image"
+        />
+      </section>
+
+      <section class="about">
+        <h1>
+          Nice to meet you! I'm <br /><span class="profilename"
+            >Sabari Raj P</span
+          >
+          <span class="span">|</span>
+        </h1>
+        <marquee class="slide" scrollamount="10" direction="left">
+          <h1>
+            Reset the past, upgrade the present, and code a brighter future -
+            <span>Sabari Raj P </span>| Full-Stack Developer
+          </h1>
+        </marquee>
+        <p>
+          Based in the Indian, I'm a Full-stack developer passionate about
+          building accessible web apps that users love.
+        </p>
+      </section>
+
+      <section class="contact">
+        <h2>Contact Me</h2>
+      </section>
+
+      <section class="bgcricle">
+        <div class="circle1"></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+
+      <section class="singlecircle">
+        <div></div>
+      </section>
     </header>
-    <img class="rotateimage" src="./Assests/circle.png" alt="Rotate image">
-    <div class="circle">
-        hello
-    </div>
-</body>
+
+    <section class="skill_Section">
+
+        <section class="image_container">
+            <img src="" alt="HTML">
+            <img src="" alt="CSS">
+            <img src="" alt="Tailwind CSS">
+            <img src="" alt="C#">
+            <img src="" alt="Java">
+            <img src="" alt="Figma">
+            <img src="" alt="">
+        </section>
+        <section class="skills">
+
+        </section>
+    </section>
+
+  </body>
 </html>

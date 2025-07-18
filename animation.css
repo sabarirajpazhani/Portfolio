@@ -1,0 +1,19 @@
+/* auto rotate */
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+/* Slash animation */
+@keyframes slash {
+  from {
+    opacity: 0;
+  }
+  to {
+   opacity: 1;
+  }
+}
